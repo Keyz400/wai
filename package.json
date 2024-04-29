@@ -5,10 +5,10 @@
     "license": "MIT",
     "scripts": {
         "dev": "vite-node ./src/index.ts",
-        "start": "node dist/index.js",  // Updated start script for production
+        "start": "node dist/index.js",
         "format": "prettier --write ./src",
         "test": "vite-node ./test/index.test.ts",
-        "build": "vite build"  // Added build script for production
+        "build": "vite build"
     },
     "devDependencies": {
         "@types/node": "^18.14.0",
